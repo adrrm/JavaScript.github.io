@@ -6,38 +6,23 @@
     <title>Document</title>
 </head>
 <body>
-    <div id="resultado 1"></div>
-    <div id="resultado 2"></div>
-    <div id="resultado 3"></div>
-    <div id="resultado 4"></div>
+    <div id="resultado1"></div>
+    <div id="resultado2"></div>
+    <div id="resultado3"></div>
+    <div id="resultado4"></div>
 
     <script>
         var valor1=12;
         var valor2=15;
 
-        var calculator= valor1/2 + valor2/3;
-        document.getElementById('resultado 1').innerHTML="el primer calculo vale"+calculo;
-    </script>
-     <script>
-        var valor3=11;
-        var valor4=13;
-
-        var calculator= valor3*3 + valor4*3;
-        document.getElementById('resultado 2').innerHTML="el primer calculo vale"+calculo;
-    </script>
-     <script>
-        var valor5=14;
-        var valor6=16;
-
-        var calculator= valor5/2 - valor6/8;
-        document.getElementById('resultado 3').innerHTML="el primer calculo vale"+calculo;
-    </script>
-     <script>
-        var valor7=17;
-        var valor8=18;
-
-        var calculator= valor7*3 - valor18*2;
-        document.getElementById('resultado 4').innerHTML="el primer calculo vale"+calculo;
+        var suma= valor1+valor2;
+        var resta= valor1-valor2;
+        var mul= valor1*valor2;
+        var div=valor1/valor2;
+        document.getElementById('resultado 1').innerHTML="la suma del valor1 y del valor 2 es:"+suma;
+        document.getElementById('resultado 2').innerHTML="la resta del valor1 y del valor 2 es:"+resta;
+        document.getElementById('resultado 3').innerHTML="la multiplicacion del valor1 y del valor 2 es:"+mul;
+        document.getElementById('resultado 4').innerHTML="la division del valor1 y del valor 2 es:"+div;
     </script>
     
 </body>
