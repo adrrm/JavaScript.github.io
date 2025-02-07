@@ -6,23 +6,13 @@
     <title>Document</title>
 </head>
 <body>
-    <div id="resultado1" style="border: solid 2px blue;"></div>
-    <div id="resultado2" style="border: solid 2px black;"></div>
-    <div id="resultado3" style="border: solid 2px brown;"></div>
-    <div id="resultado4" style="border: solid 2px gray;"></div>
-
+    <h1>Pagina de Bienvenida</h1>
+    <p id="mensaje" style="color: violet;">Este es un párrafo</p>
     <script>
-        var valor1=12;
-        var valor2=15;
-
-        var suma= valor1+valor2;
-        var resta= valor1-valor2;
-        var mul= valor1*valor2;
-        var div=valor1/valor2;
-        document.getElementById('resultado1').innerHTML="la suma del valor1 y del valor 2 es:"+suma;
-        document.getElementById('resultado2').innerHTML="la resta del valor1 y del valor 2 es:"+resta;
-        document.getElementById('resultado3').innerHTML="la multiplicacion del valor1 y del valor 2 es:"+mul;
-        document.getElementById('resultado4').innerHTML="la division del valor1 y del valor 2 es:"+div;
+        document.getElementById('mensaje').innerHTML="Certus";
+        document.write("<div style='background-color:#776199;'>Bienvenido</div>");
+        window.alert('Bienvenido a Certus');
+        console.log('Mensaje en la consola del navegador');
     </script>
     
 </body>
